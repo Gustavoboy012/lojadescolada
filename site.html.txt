@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online Descolada</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .produto {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 250px;
+        }
+        .produto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        button {
+            background: #ffcc00;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja Online Descolada</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="banner">Promoções Imperdíveis!</div>
+    
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="produto1.jpg" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>Descrição do produto 1.</p>
+            <p>R$ 99,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="produto2.jpg" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>Descrição do produto 2.</p>
+            <p>R$ 149,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="0001(1).png" alt="Smartwatch">
+            <h3>Smartwatch</h3>
+            <p>Modelo moderno e estiloso com diversas funcionalidades.</p>
+            <p>R$ 99,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="fone-bluetooth.jpg" alt="Fone Bluetooth">
+            <h3>Fone Bluetooth</h3>
+            <p>Qualidade de som incrível e conexão sem fio estável.</p>
+            <p>R$ 10,00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@lojaonline.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma loja online dedicada a oferecer os melhores produtos para você.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Loja Online Descolada. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
